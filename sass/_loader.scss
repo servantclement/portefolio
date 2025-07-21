@@ -51,7 +51,6 @@
     .loader-dot {
       width: 10px;
       height: 10px;
-      // background: deeppink;
       border: 2px solid $tertiary-color;
       border-radius: 50%;
       animation: bounce 0.5s infinite ease-in-out;
@@ -100,10 +99,8 @@
       width: 0%;
       height: 100%;
       border-radius: 15px;
-      // background: #7236bc;
       background: $color-loader;
-
-      animation: fillProgress 3s linear forwards;
+      animation: fillProgress 4s linear forwards;
     }
   }
 }
