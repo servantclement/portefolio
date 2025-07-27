@@ -17,12 +17,17 @@
     position: fixed;
 
     .loader-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         padding: 20px;
 
         & img {
             max-width: 50%;
             height: auto;
+            justify-content: center;
         }
 
         & .loader-text {

@@ -74,12 +74,17 @@ img {
   position: fixed;
 }
 .loader-page .loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 20px;
 }
 .loader-page .loader-container img {
   max-width: 50%;
   height: auto;
+  justify-content: center;
 }
 .loader-page .loader-container .loader-text {
   display: flex;
