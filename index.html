@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Servant Clement</title>
-    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="icon" href="./assets/images/Clement.png" type="image/x-icon" />
     <meta
       name="description"
-      content="Site de Servant Clement en construction"
+      content="Site de Clement Servant en construction"
     />
     <meta
       name="keywords"
-      content="Servant Clement, site en construction, développement web"
+      content="Clement Servant, site en construction, intégrateur web, portfolio"
     />
-    <meta name="author" content="Servant Clement" />
+    <meta name="author" content="Clement Servant" />
   </head>
   <body>
     <section class="loader-page">
@@ -37,34 +37,35 @@
         <div class="progress"></div>
       </div>
     </section>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#home">Accueil</a></li>
-          <li><a href="#about">À propos</a></li>
-          <li><a href="#competence">Competences</a></li>
-          <li><a href="#gallery">Galerie</a></li>
-          <li><a href="#contact">Contact</a></li>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list-link"><a href="#home">Accueil</a></li>
+          <li class="nav-list-link"><a href="#about">À propos</a></li>
+          <li class="nav-list-link"><a href="#competence">Competences</a></li>
+          <li class="nav-list-link"><a href="#gallery">Galerie</a></li>
+          <li class="nav-list-link"><a href="#contact">Contact</a></li>
+          <li class="nav-list-link"><a href="#footer">Footer</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <div class="content">
-        <section id="home">
+        <section class="home" id="home">
           <h2>Accueil</h2>
           <p>
             Bienvenue sur le site de Clement Servant. Ce site est en
             construction.
           </p>
         </section>
-        <section id="about">
+        <section class="about" id="about">
           <h2>À propos</h2>
           <p>
             Ce site sera dédié à mes projets et réalisations en développement
             web.
           </p>
         </section>
-        <section id="competence">
+        <section class="competence" id="competence">
           <h2>Compétences</h2>
           <ul>
             <li>HTML</li>
@@ -77,7 +78,7 @@
             <li>GitHub</li>
           </ul>
         </section>
-        <section id="gallery">
+        <section class="gallery" id="gallery">
           <h2>Galerie</h2>
           <p>
             Voici quelques captures d'écran de mes projets récents. (Cette section
@@ -88,7 +89,7 @@
             <img src="./assets/images/project2.png" alt="Projet 2" />
             <img src="./assets/images/project3.png" alt="Projet 3" />
           </div>
-        <section id="contact">
+        <section class="contact" id="contact">
           <h2>Contact</h2>
           <p>
             Pour me contacter, veuillez m'envoyer un email à 
@@ -97,7 +98,10 @@
         </section>
       </div>
     </main>
-    <footer>
+    <div class="scroll-to-top">
+      <a href="#home">Retour en haut</a>
+    </div>
+    <footer class="footer">
       <p>&copy; 2025 Clement Servant</p>
     </footer>
   </body>

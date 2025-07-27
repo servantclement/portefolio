@@ -1,11 +1,14 @@
-@import "variables";
-
-@import "loader";
-
-@import "home";
-
-@import "layout";
-
-@import "mixins";
-
-@import "keyframes";
+@use '../sass/abstracts/mixins';
+@use '../sass/abstracts/variables';
+@use '../sass/base/reset';
+@use '../sass/base/animations';
+@use '../sass/components/carousel';
+@use '../sass/components/loader';
+@use '../sass/layouts/about';
+@use '../sass/layouts/competences';
+@use '../sass/layouts/contact';
+@use '../sass/layouts/content';
+@use '../sass/layouts/footer';
+@use '../sass/layouts/gallery';
+@use '../sass/layouts/header';
+@use '../sass/layouts/home';

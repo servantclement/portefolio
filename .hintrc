@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "border: 5px solid lab(71.17% -4.98 72.15)"
+        ]
+      }
+    ]
+  }
+}
